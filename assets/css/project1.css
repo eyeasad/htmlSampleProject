@@ -1,0 +1,64 @@
+/* General CSS ----------------------------------------------- */
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    background: white;
+}
+
+label {
+    font-weight: 400;
+}
+
+input {
+    font-weight: 400;
+}
+
+a {
+    font-weight: 400;
+    text-decoration: none;
+    color: white !important;
+    transition: ease-in .2s;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+}
+
+/* General CSS ----------------------------------------------- */
+.p1_bgContainer {
+    color: white;
+    border: 2px solid darkseagreen;
+}
+
+.bg-red {
+    color: white;
+    background: red;
+}
+
+.bg-green {
+    background: green;
+    color: white;
+}
+
+.bg-blue {
+    background: blue;
+    color: white;
+}
